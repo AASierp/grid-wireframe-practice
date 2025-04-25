@@ -1,0 +1,66 @@
+@import url("./reset.css");
+
+.grid-container{
+    height: 100vh;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 250px 50px 50px;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    line-height: 3;
+    font-size: 1.3rem;
+    row-gap: 2px;
+    column-gap: 2px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.grid-item{
+    border-radius: 7px;
+    width: 250px;
+    height: 45px;
+    line-height: 2;
+    margin: 0;
+}
+
+.header{
+    
+    background-color: blueviolet;
+}
+
+.aside1{
+    
+    background-color: blue;
+}
+
+.article-container{
+    display: grid;
+    background-color: seagreen;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 240px;
+    padding: 10px;
+    
+}
+
+.article{
+    
+    background-color: rgb(255, 20, 94);
+    width: 210px;
+    height: 60px;
+    line-height: 2.7;
+}
+
+.aside2{
+    
+    background-color: rgb(63, 165, 190);
+}
+
+.footer{
+    
+    background-color: chocolate;
+}
+
